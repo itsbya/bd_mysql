@@ -16,7 +16,7 @@ PRIMARY KEY(id)
 -- Comando de manipulação de dados 
 INSERT INTO sistema_RH(nome, cargo, salario, data_admissão, 
 departamento)
-VALUE ('Bia', 'Desenvolvedora de Software', 20000.00, '2021-02-05',
+VALUES ('Bia', 'Desenvolvedora de Software', 20000.00, '2021-02-05',
 'Tecnologia'), ('Lucas', 'Analista de Segurança da Informação', 15000.00, '2023-06-08',
 'Tecnologia'), ('Liz', 'UX/UI Designer', 12000.00, '2021-05-05',
 'Tecnologia'), ('Guilherme', 'Gerente Administrativo', 10000.00, '2020-02-10',
