@@ -14,7 +14,7 @@ PRIMARY KEY(id)
 
 -- Comando de manipulação de dados 
 INSERT INTO db_ecommerce(nome, descricao, preco, estoque)
-VALUE ('Notebook Dell Inspiron', 'Notebook com 8GB RAM e SSD 256GB', 3500.00, 10),
+VALUES ('Notebook Dell Inspiron', 'Notebook com 8GB RAM e SSD 256GB', 3500.00, 10),
 ('Smartphone Samsung Galaxy', 'Celular 128GB, câmera 50MP', 2200.00, 15),
 ('Fone Bluetooth JBL', 'Fone sem fio com cancelamento de ruído', 450.00, 30),
 ('Mouse Gamer Logitech', 'Mouse RGB 12000 DPI', 250.00, 20),
