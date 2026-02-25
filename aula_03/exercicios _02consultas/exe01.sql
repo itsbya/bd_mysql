@@ -1,7 +1,7 @@
--- Cria o Banco de dados db_quitanda
+-- Cria o Banco de dados db_farmacia_bem_estar
 CREATE DATABASE db_farmacia_bem_estar;
 
--- Selecionar o Banco de Dados db_quitanda
+-- Selecionar o Banco de Dados db_farmacia_bem_estar
 USE db_farmacia_bem_estar;
 
 
