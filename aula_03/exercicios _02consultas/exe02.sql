@@ -68,7 +68,7 @@ SELECT * FROM tb_cursos WHERE preco BETWEEN 600.00 AND 1000.00;
 SELECT * FROM tb_cursos WHERE nome LIKE "%j%";
 
 -- Inner Join
-SELECT cs.nome, cs.preco, cs.carga_horaria, c.descricao AS descricao_da_categoria
+SELECT cs.nome, cs.preco, cs.carga_horaria, c.nome, c.descricao AS descricao_da_categoria
 FROM tb_cursos cs INNER JOIN tb_categorias c
 ON cs.categoria_id = c.id;
 

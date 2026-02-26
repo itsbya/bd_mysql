@@ -67,7 +67,7 @@ SELECT * FROM tb_produtos WHERE preco BETWEEN 5.00 AND 60.00;
 SELECT * FROM tb_produtos WHERE nome LIKE "%C%";
 
 -- Inner Join
-SELECT p.nome, p.preco, p.quantidade_estoque, c.descricao AS descricao_da_categoria
+SELECT p.nome, p.preco, p.quantidade_estoque, c.nome, c.descricao AS descricao_da_categoria
 FROM tb_produtos p INNER JOIN tb_categorias c
 ON p.categoria_id = c.id;
 
